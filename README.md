@@ -10,5 +10,5 @@ dotfiles is preference set for linux.
 	$ sh install.sh
 
 ## Applications ##
-*zsh
-*vim
+zsh
+vim
