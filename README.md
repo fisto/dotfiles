@@ -12,3 +12,4 @@ dotfiles is preference set for linux.
 ## Applications ##
 - zsh
 - vim
+- git
