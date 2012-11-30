@@ -43,9 +43,15 @@ set hlsearch "検索ワードをハイライトする
 set backspace=start "全てバックスペースで削除可能にする
 set backup
 set backupdir=$HOME/.vimbackup
+set visualbell "ビープ音を消す
+"set vb t_vb=
+set whichwrap=b,s,<,>,[,] "左右のカーソル移動で行間移動可能にする。
+
+"#######################
+" 表示色
+"#######################
 colorscheme zellner
 highlight Comment ctermfg=LightCyan
-
 
 "#######################
 " UTF-8
