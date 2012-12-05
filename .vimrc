@@ -41,8 +41,8 @@ set wrap "行の端まで到達すると折り返す
 set history=100 "保存するコマンド数
 set hlsearch "検索ワードをハイライトする
 set backspace=start "全てバックスペースで削除可能にする
-set backup
-set backupdir=$HOME/.vimbackup
+"set backup
+"set backupdir=$HOME/.vimbackup
 set visualbell "ビープ音を消す
 "set vb t_vb=
 set whichwrap=b,s,<,>,[,] "左右のカーソル移動で行間移動可能にする。
