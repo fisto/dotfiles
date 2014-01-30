@@ -17,7 +17,7 @@ set laststatus=2 "ステータスラインを常に表示
 syntax on "カラー表示
 set smartindent "オートインデント
 " tab関連
-"set expandtab "タブの代わりに空白文字挿入
+set expandtab "タブの代わりに空白文字挿入
 set tabstop=2 "タブ幅
 set shiftwidth=2 "インデント幅
 set softtabstop=0 
@@ -40,7 +40,7 @@ set noinsertmode "デフォルトモードでインサートモードにしな�
 set wrap "行の端まで到達すると折り返す
 set history=100 "保存するコマンド数
 set hlsearch "検索ワードをハイライトする
-set backspace=start "全てバックスペースで削除可能にする
+set backspace=indent,eol,start "全てバックスペースで削除可能にする
 "set backup
 "set backupdir=$HOME/.vimbackup
 set visualbell "ビープ音を消す
