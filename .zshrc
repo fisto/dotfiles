@@ -7,6 +7,7 @@ export LANG=ja_JP.UTF-8
 export LSCOLORS=gxfxcxdxbxegedabagacad
 setopt nolistbeep
 bindkey -e
+autoload -Uz add-zsh-hook
 
 # prompt
 PROMPT='[%n@%m]$ '
@@ -79,3 +80,7 @@ PATH=$PATH:$HOME/.rvm/bin
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export PATH="$HOME/.rbenv/bin:$PATH"
+
+# zsh-notify
+export SYS_NOTIFIER="/usr/local/bin/terminal-notifier"
+source ~/.dotfiles/.zsh.d/zsh-notify/notify.plugin.zsh
