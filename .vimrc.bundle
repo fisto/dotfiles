@@ -1,0 +1,18 @@
+"------------------------
+" NeoBundle設定
+"------------------------
+if has('vim_starting')
+  set runtimepath+=~/.dotfiles/.vim.d/neobundle.vim/
+endif
+
+call neobundle#rc(expand('~/.dotfiles/.vim.d/bundle/'))
+
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/unite.vim'
+
+" add plugins
+filetype plugin indent on
+
+NeoBundleCheck

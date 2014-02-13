@@ -71,6 +71,7 @@ alias g='git'
 alias rb='ruby'
 alias py='python'
 alias ls="ls -G"
+alias la="ls -la"
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"

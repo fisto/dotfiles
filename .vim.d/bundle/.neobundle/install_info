@@ -1,0 +1,2 @@
+3.0
+{'neobundle.vim': {'checked_time': 1392279071, 'installed_uri': 'https://github.com/Shougo/neobundle.vim.git', 'installed_path': '/Users/fisto/.dotfiles/.vim.d/bundle/neobundle.vim', 'revisions': {}, 'updated_time': 1392279071}, 'unite.vim': {'checked_time': 1392279081, 'installed_uri': 'https://github.com/Shougo/unite.vim.git', 'installed_path': '/Users/fisto/.dotfiles/.vim.d/bundle/unite.vim', 'revisions': {'1392028471': 'bb6b707ce11d8f575071b3e7fb3464f316b40084'}, 'updated_time': '1392028471'}}

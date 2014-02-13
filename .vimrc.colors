@@ -1,0 +1,6 @@
+"------------------------
+" 色設定
+"------------------------
+syntax on                               "カラー表示
+colorscheme zellner
+highlight Comment ctermfg=LightCyan

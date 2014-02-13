@@ -1,0 +1,9 @@
+"------------------------
+" その他設定
+"------------------------
+set noinsertmode    "デフォルトモードでインサートモードにしない
+set history=100     "保存するコマンド数
+set visualbell      "ビープ音を消す
+
+" ファイルを開いた際に、前回終了時の行で起動
+autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal g`\"" | endif
