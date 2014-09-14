@@ -61,17 +61,8 @@ setopt share_history
 setopt auto_pushd
 setopt pushd_ignore_dups
 
-# alias
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -rf'
-alias r='rails'
-alias v='vim'
-alias g='git'
-alias rb='ruby'
-alias py='python'
-alias ls="ls -G"
-alias la="ls -la"
+#alias
+source ~/.dotfiles/.zshrc.alias
 
 # rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
@@ -85,3 +76,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # zsh-notify
 export SYS_NOTIFIER="/usr/local/bin/terminal-notifier"
 source ~/.dotfiles/.zsh.d/zsh-notify/notify.plugin.zsh
+
+# tmux
+# [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -f ~/.dotfiles/.tmux.conf
+
+# pig
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
