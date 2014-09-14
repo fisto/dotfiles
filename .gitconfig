@@ -74,6 +74,7 @@
   gc-ap = gc --aggressive --prune
   listconf = config --global --list
   cam = commit -a -m
+  cm = commit -m
   lsm = log -M --stat
   hse = log --stat -5
   diffall = diff HEAD
