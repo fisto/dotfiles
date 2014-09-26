@@ -5,3 +5,5 @@ echo "source ~/.dotfiles/.bashrc" >> ~/.bashrc
 
 ln -Fis ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -Fis ~/.dotfiles/.gitgitignore ~/.gitignore
+
+echo "Finished."
