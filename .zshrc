@@ -64,22 +64,5 @@ setopt pushd_ignore_dups
 #alias
 source ~/.dotfiles/.zshrc.alias
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-PATH=$PATH:$HOME/.rvm/bin
-
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/bin:$PATH"
-
-# zsh-notify
-export SYS_NOTIFIER="/usr/local/bin/terminal-notifier"
-source ~/.dotfiles/.zsh.d/zsh-notify/notify.plugin.zsh
-
 # tmux
 # [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -f ~/.dotfiles/.tmux.conf
-
-# pig
-export JAVA_HOME="$(/usr/libexec/java_home)"
-
