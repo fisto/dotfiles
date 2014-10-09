@@ -61,27 +61,22 @@ setopt share_history
 setopt auto_pushd
 setopt pushd_ignore_dups
 
-# alias
-alias cp='cp -i'
-alias mv='mv -i'
-alias rm='rm -rf'
-alias r='rails'
-alias v='vim'
-alias g='git'
-alias rb='ruby'
-alias py='python'
-alias ls="ls -G"
-alias la="ls -la"
+#alias
+source ~/.dotfiles/.zshrc.alias
 
-# rvm
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-PATH=$PATH:$HOME/.rvm/bin
+# tmux
+# [[ -z "$TMUX" && ! -z "$PS1" ]] && tmux -f ~/.dotfiles/.tmux.conf
 
-# rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/bin:$PATH"
-
-# zsh-notify
-export SYS_NOTIFIER="/usr/local/bin/terminal-notifier"
-source ~/.dotfiles/.zsh.d/zsh-notify/notify.plugin.zsh
+export LC_CTYPE=UTF-8
+export LC_NUMERIC="ja_JP.UTF-8"
+export LC_TIME="ja_JP.UTF-8"
+export LC_COLLATE="ja_JP.UTF-8"
+export LC_MONETARY="ja_JP.UTF-8"
+export LC_MESSAGES="ja_JP.UTF-8"
+export LC_PAPER="ja_JP.UTF-8"
+export LC_NAME="ja_JP.UTF-8"
+export LC_ADDRESS="ja_JP.UTF-8"
+export LC_TELEPHONE="ja_JP.UTF-8"
+export LC_MEASUREMENT="ja_JP.UTF-8"
+export LC_IDENTIFICATION="ja_JP.UTF-8"
+export LC_ALL="ja_JP.UTF-8"
