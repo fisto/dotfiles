@@ -64,7 +64,6 @@ vim-rails
 vim-ref
 vim-scala
 vim-textobj-fold
-vim-textobj-function
 vim-textobj-indent
 vim-textobj-lastpat
 vim-textobj-plugins
