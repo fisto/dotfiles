@@ -72,7 +72,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
   NeoBundle 'kana/vim-textobj-indent.git'
 
   " vim-textobj-function : 関数の中身をtext-objectに
-  NeoBundle 'kana/vim-textobj-function.git'
+  " NeoBundle 'kana/vim-textobj-function.git'
 
   " vim-textobj-fold : 折りたたまれたアレをtext-objectに
   NeoBundle 'kana/vim-textobj-fold.git'
