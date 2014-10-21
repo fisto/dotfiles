@@ -3,9 +3,8 @@
 "------------------------
 if has('vim_starting')
   set runtimepath+=~/.dotfiles/.vim.d/neobundle.vim/
+  call neobundle#rc(expand('~/.dotfiles/.vim.d/bundle/'))
 endif
-
-call neobundle#rc(expand('~/.dotfiles/.vim.d/bundle/'))
 
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
@@ -72,7 +71,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
   NeoBundle 'kana/vim-textobj-indent.git'
 
   " vim-textobj-function : 関数の中身をtext-objectに
-  NeoBundle 'kana/vim-textobj-function.git'
+  " NeoBundle 'kana/vim-textobj-function.git'
 
   " vim-textobj-fold : 折りたたまれたアレをtext-objectに
   NeoBundle 'kana/vim-textobj-fold.git'
