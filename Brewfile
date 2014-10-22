@@ -5,7 +5,6 @@ upgrade
 #tap caskroom/cask || true
 tap phinze/homebrew-cask
 
-
 install brew-cask
 install rbenv
 install ruby-build
@@ -40,6 +39,7 @@ cask install github
 cask install vlc
 cask install sublime-text
 cask install hipchat
+cask install slack
 cask install atom
 cask install copy
 cask install cooviewer
@@ -50,8 +50,10 @@ cask install mactex
 cask install splashtop-personal splashtop-streamer
 cask install appcleaner
 cask install firefox
+cask install opera
 cask install transmit
 cask install vmware-fusion
+cask install coteditor
 #
 cask alfred link
 cleanup
