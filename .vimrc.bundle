@@ -202,6 +202,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
   " NERDTree : ツリー型エクスプローラ
   NeoBundle 'The-NERD-tree'
+  "NeoBundle 'scrooloose/nerdtree'
 
   " vtreeexplorer.vim : ツリー状にファイルやディレクトリの一覧を表示
   NeoBundle 'vtreeexplorer'

@@ -1,5 +1,5 @@
 "パッケージ管理
-"source ~/.dotfiles/.vimrc.bundle
+source ~/.dotfiles/.vimrc.bundle
 
 "基本設定
 source ~/.dotfiles/.vimrc.basic
