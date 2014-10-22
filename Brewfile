@@ -13,9 +13,9 @@ tap phinze/homebrew-cask
 #install tig
 #install curl
 #install wget
-#install tmux 
+#install tmux
 cask install java
-cask install skype 
+cask install skype
 # 必須アプリ
 cask install iterm2
 cask install google-chrome
@@ -31,7 +31,7 @@ cask install alfred
 cask install dropbox
 cask install evernote
 cask install yorufukurou
-cask install keyremap4macbook
+cask install karabiner
 cask install skitch
 cask install github
 #
@@ -44,6 +44,7 @@ cask install cooviewer
 cask install flux
 cask install gyazo
 cask install macvim
+cask install mactex
 cask install splashtop-personal splashtop-streamer
 cask install appcleaner
 cask install firefox
