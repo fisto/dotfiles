@@ -5,17 +5,18 @@ upgrade
 #tap caskroom/cask || true
 tap phinze/homebrew-cask
 
-#install brew-cask
-#install rbenv
-#install ruby-build
-#install zsh
-#install git
-#install tig
-#install curl
-#install wget
-#install tmux 
+install brew-cask
+install rbenv
+install ruby-build
+install zsh
+install git
+install tig
+install curl
+install wget
+install tmux
+# cask
 cask install java
-cask install skype 
+cask install skype
 # 必須アプリ
 cask install iterm2
 cask install google-chrome
