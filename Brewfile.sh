@@ -43,6 +43,9 @@ brew cask install coteditor
 brew cask install atom
 brew cask install sublime-text
 brew cask install macvim
+## TeX
+#brew install ghostscript
+#brew install imagemagick
 #brew cask install mactex
 ## etc
 #brew cask install splashtop-personal splashtop-streamer
