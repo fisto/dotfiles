@@ -227,3 +227,5 @@
   default = matching
 [include]
   path = ~/.gitconfig.local
+[commit]
+  template = ~/.dotfiles/gitmessage

@@ -10,14 +10,24 @@ autocmd BufWritePre * :%s/\s\+$//ge
 "保存時にtabをスペースに変換する
 "autocmd BufWritePre * :%s/\t/  /ge
 
+nnoremap <leader>e :VimFilerExplore -split -winwidth=30 -find -no-quit<Cr>
+
+noremap <C-G> :! perl -c %
+
+let mapleader = "\<Space>"
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 "------------------------
 " インデント設定
 "------------------------
 set smartindent       "オートインデント
 set expandtab         "タブの代わりに空白文字挿入
-set tabstop=2         "タブ幅
-set shiftwidth=2      "インデント幅
+set tabstop=4         "タブ幅
+set shiftwidth=4      "インデント幅
 set softtabstop=0
 
 
@@ -58,6 +68,7 @@ set ignorecase    "検索文字列が小文字の場合は大文字小文字を�
 set smartcase     "検索文字列に大文字が含まれている場合は区別して検索する
 set wrapscan      "検索時に最後まで行ったら最初に戻る
 set noincsearch   "検索文字列入力時に順次対象文字列にヒットさせない
+set hlsearch
 
 "Escの2回押しでハイライト消去
 nmap <ESC><ESC> ;nohlsearch<CR><ESC>
@@ -91,6 +102,13 @@ set backspace=indent,eol,start
 syntax on 
 colorscheme zellner
 "highlight Comment ctermfg=LightCyan
+
+let g:go_highlight_types = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_interfaces = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
 
 
 "------------------------
