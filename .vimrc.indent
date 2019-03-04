@@ -1,8 +1,0 @@
-"------------------------
-" インデント設定
-"------------------------
-set smartindent       "オートインデント
-set expandtab         "タブの代わりに空白文字挿入
-set tabstop=2         "タブ幅
-set shiftwidth=2      "インデント幅
-set softtabstop=0
