@@ -90,7 +90,7 @@ set backspace=indent,eol,start
 "カラー表示
 syntax on 
 colorscheme zellner
-highlight Comment ctermfg=LightCyan
+"highlight Comment ctermfg=LightCyan
 
 
 "------------------------

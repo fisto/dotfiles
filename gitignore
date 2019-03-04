@@ -23,8 +23,3 @@ Session.vim
 *.elc
 .zshrc.local
 samples
-
-.vim.d/bundle/
-.vim.d/neobundle.vim
-.vim.d/.netrwhist
-.vimrc_sample
