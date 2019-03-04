@@ -42,7 +42,10 @@
   graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
   st = status
   df = diff
+  f = fetch
+  b = branch
   br = branch -a
+  bD = branch -D
   s = status -u -s
   cl = log --stat -C -2
   c = commit
