@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-dotfiles is preference set for linux.
+dotfiles is preference set for mac.
 
 ## How to install ##
 
@@ -12,6 +12,6 @@ dotfiles is preference set for linux.
 ```
 
 ## Applications ##
-- zsh
-- vim
+- bash
 - git
+- vim
