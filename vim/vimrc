@@ -1,5 +1,5 @@
 "------------------------
-" 基本設定 
+" 基本設定
 "------------------------
 "vi非互換モード
 set nocompatible
@@ -78,9 +78,9 @@ nmap <ESC><ESC> ;nohlsearch<CR><ESC>
 " 移動設定
 "------------------------
 "左右のカーソル移動で行間移動可能にする
-set whichwrap=b,s,<,>,[,] 
+set whichwrap=b,s,<,>,[,]
 "行の端まで到達すると折り返す
-set wrap 
+set wrap
 
 
 "------------------------
@@ -99,7 +99,7 @@ set backspace=indent,eol,start
 " 色設定
 "------------------------
 "カラー表示
-syntax on 
+syntax on
 colorscheme zellner
 "highlight Comment ctermfg=LightCyan
 
@@ -135,4 +135,4 @@ autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "norm
 "------------------------
 " NeoBundle設定
 "------------------------
-"source ~/.dotfiles/vimrc.bundle
+source ~/.dotfiles/vim/vimrc.bundle

@@ -9,9 +9,9 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-set runtimepath^=~/.dotfiles/.vimrc.d/bundle/neobundle.vim/
+set runtimepath^=~/.dotfiles/vim/bundle/neobundle.vim/
 
-call neobundle#begin(expand('~/.dotfiles/.vimrc.d/bundle/'))
+call neobundle#begin(expand('~/.dotfiles/vim/bundle/'))
   " Let NeoBundle manage NeoBundle
   NeoBundleFetch 'Shougo/neobundle.vim'
 
