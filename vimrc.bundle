@@ -47,7 +47,6 @@ call neobundle#begin(expand('~/.dotfiles/.vimrc.d/bundle/'))
 
 
   " Unite {{{{
-    " unite.vim : - すべてを破壊し、すべてを繋げ - vim scriptで実装されたanythingプラグイン
     NeoBundle 'Shougo/unite.vim'
   " }}}
 
