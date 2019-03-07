@@ -23,10 +23,10 @@ if [ $ANS = 'y' -o $ANS = 'yes' ]; then
   echo "Done."
 
   echo "Setting .gitconfig ... "
-  ln -Fis ~/.dotfiles/git/.gitconfig ~/.gitconfig
+  ln -Fis ~/.dotfiles/git/gitconfig ~/.gitconfig
   echo "Done."
 
   echo "Setting .gitignore ... "
-  ln -Fis ~/.dotfiles/git/.gitignore ~/.gitignore
+  ln -Fis ~/.dotfiles/git/gitignore ~/.gitignore
   echo "Done."
 fi
