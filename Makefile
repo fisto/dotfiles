@@ -28,3 +28,6 @@ setup_config_fish:
 
 setup_config_karabiner:
 	sh ./.scripts/setup_config_karabiner.sh
+
+set_keyrepeat:
+	sh ./.scripts/set_keyrepeat.sh
