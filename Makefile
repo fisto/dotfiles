@@ -25,3 +25,6 @@ setup_gitconfig:
 
 setup_config_fish:
 	sh ./.scripts/setup_config_fish.sh
+
+setup_config_karabiner:
+	sh ./.scripts/setup_config_karabiner.sh
