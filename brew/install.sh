@@ -9,7 +9,7 @@ brew install tmux
 brew install curl
 brew install wget
 brew install jq
-brew install ag
+# brew install ag
 
 # programming
 brew install go
