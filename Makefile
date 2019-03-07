@@ -23,3 +23,5 @@ setup_tmuxconf:
 setup_gitconfig:
 	sh ./.scripts/setup_gitconfig.sh
 
+setup_config_fish:
+	sh ./.scripts/setup_config_fish.sh
