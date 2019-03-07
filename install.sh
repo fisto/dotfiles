@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# bash
+echo "install .bash? [y/n] \c"
+read ANS
+if [ $ANS = 'y' -o $ANS = 'yes' ]; then
+  echo "Installing .bash ... \c"
+  echo "source ~/.dotfiles/bashrc" >> ~/.bash
+  echo "done."
+fi
+
 # zshrc
 echo "install .zshrc? [y/n] \c"
 read ANS
