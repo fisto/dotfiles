@@ -1,0 +1,19 @@
+
+# ==================== Emojis ====================
+# 🔖  :bookmark:         Tag
+# ✨  :sparkles:         Feature
+# 🏥  :hospital:         Fix
+# ♻️   :recycle:          Refactor
+# 📚  :books:            Documents
+# 🎨  :art:              Design
+# 🔧  :wrench:           Setting
+# 🚨  :rotating_light:   Tests
+# 🗑️  :wastebasket:      Remove
+# 🚧  :construction:     WIP
+
+
+# ==================== Format ====================
+# :emoji: Subject
+#
+# Commit body...
+
