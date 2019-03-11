@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # key repeats
-echo "Change InitialKeyRepeat=10(150ms)? [y/n] \c"
+echo "Change InitialKeyRepeat=12(130ms)? [y/n] \c"
 read ANS
 if [ $ANS = 'y' -o $ANS = 'yes' ]; then
-  defaults write -g InitialKeyRepeat -int 10
+  defaults write -g InitialKeyRepeat -int 12
   echo "Done."
 fi
 defaults read -g InitialKeyRepeat
