@@ -5,15 +5,15 @@ brew upgrade
 
 # cli
 brew install fish
-brew install tmux
-brew install curl
+#brew install tmux
+#brew install curl
 brew install wget
 brew install jq
 # brew install ag
 
 # programming
-brew install go
-brew install node
+#brew install go
+#brew install node
 
 # cleanup
 brew cleanup
