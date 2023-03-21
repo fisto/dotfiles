@@ -38,11 +38,13 @@
   f = fetch
   b = branch
   br = branch -a
-  bD = branch -D
+  bd = branch -D
   s = status -u -s
+  sw = switch
   cl = log --stat -C -2
   c = commit
   co = checkout
+  cob = checkout -b
   d = diff --color-words
   dh = diff HEAD
   dc = diff --staged
@@ -136,7 +138,6 @@
   squash = "!sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -"
   ccfq = "!sh -c 'git add $1 && git commit -m\"Placeholder\"' -"
   logme = log --author=Matthew --stat -C
-  cob = checkout -b
   sno = show --name-only
   logsimple = log --graph --abbrev-commit --pretty=oneline --all --decorate
   gwcl = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
